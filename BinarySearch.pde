@@ -27,7 +27,7 @@ public int linearSearch(int catNumToFind)
     {
        if(store[i].getCatNum() == catNumToFind)
        {
-        store[i].getInventory();
+        return store[i].getInventory();
        }
     }
     return -1;
